@@ -63,5 +63,6 @@ if [ -f "configure" ]; then
         --dest-os=android \
         --without-snapshot \
         --openssl-no-asm \
+        --prefix=/data \
         --without-intl
 fi
